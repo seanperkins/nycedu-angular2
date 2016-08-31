@@ -1,3 +1,33 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar color="primary">
+  <md-toolbar-tools>
+  <span>#nycedu - Home</span>
+  <span flex></span>
+  <button md-button>
+    Contact
+  </button>
+  <button md-button>
+    Share
+  </button>
+  </md-toolbar-tools>
+</md-toolbar>
+<div class="background-img">
+  <div class="text-box">
+    <h1>#NYCEDU</h1>
+    <p>We are a community of teachers, technologists, advocates, and administrators. We can do more and do better, together.</p>
+    <button md-raised-button color="primary">Join Us</button>
+  </div>
+</div>
+<md-card class="center page-height">
+  <h1>Here is the value prop for the newsletter signup</h1>
+  <p>And some sub copy to go with it.</p>
+  <form>
+    <md-icon>person</md-icon>
+    <md-input #name type="text" name="name" placeholder="name"></md-input>
+    <md-icon>email</md-icon>
+    <md-input #emailAddress type="email" name="email" placeholder="email address" required></md-input>
+    <button md-raised-button color="primary">Join</button>
+  </form>
+</md-card>
+<md-card class="page-height">
+  More content
+</md-card>
